@@ -356,6 +356,7 @@ h6 {
 .hero .btn-get-started:hover {
     color: var(--contrast-color);
     background: color-mix(in srgb, var(--accent-color), transparent 15%);
+    transform: translateY(-10px);
 }
 
 .hero .animated {
@@ -603,6 +604,60 @@ section,
     margin: 0 0 20px 0;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
+    font-family: var(--nav-font);
+}
+
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+
+.features .logo {
+    line-height: 1;
+}
+
+.features .logo img {
+    max-height: 60px;
+    margin-right: 8px;
+}
+
+.features .features-item {
+    background-color: var(--surface-color);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    position: relative;
+    box-shadow: 0px 5px 30px 0px rgba(82, 78, 78, 0.1);
+}
+
+.features .features-item i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 0;
+}
+
+.features .features-item h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.features .features-item h3 a {
+    color: var(--heading-color);
+    transition: 0.3s;
+    padding-right: 35px;
+}
+
+.features .features-item:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-10px);
+}
+
+.features .features-item:hover h3 a {
+    color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------

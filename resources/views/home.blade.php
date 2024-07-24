@@ -114,6 +114,351 @@
 
     </section><!-- /Services Section -->
 
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sistem Informasi Kota Serang Dalam Angka</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">KEUANGAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">KEWILAYAHAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PERENCANAAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KEARSIPAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KEBUDAYAAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KEHUTANAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KESEHATAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PANGAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PARIWISATA</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PENDIDIKAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERSANDIAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERTAHANAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERTANIAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERTERNAKAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG SOSIAL</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG STATISTIK</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG UMUM</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KELAUTAN DAN PERIKANAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KEPEMUDAAN DAN OLAHRAGA</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KOMUNIKASI DAN INFORMATIKA</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG LINGKUNGAN HIDUP</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PENANAMAN MODAL</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERDAGANGAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERHUBUNGAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERINDUSTRIAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERPUSTAKAAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG TENAGA KERJA</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG TRANSMIGRASI</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG ADMINISTRASI KEPENDUDUKAN DAN PENCATATAN SIPIL</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KOPERASI, USAHA KECIL DAN MENENGAH</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PEKERJAAN UMUM DAN PENATA RUANG</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG MEMPERDAYAAN MASYRAKARAT DAN DESA</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PERUMAHAN DAN KAWASAN PERMUKIMAN</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG ADMINISTRASI KEPENDUDUKAN DAN PENCATATAN SIPIL</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG KETENTERAMAN DAN KETERTIBAN UMUM SERTA PERLINDUNGAN MASYARAKAT</a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <a href="home.blade.php" class="logo d-flex align-items-center me-auto">
+                <img src="home/img/logo.png" alt=""> 
+              </a>
+              <h3><a href="" class="stretched-link">PEMERINTAH BIDANG PENGENDALIAN PENDUDUKAN DAN KELUARGA BERENCANA </a></h3>
+            </div>
+          </div><!-- End Feature Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+
      <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
 
@@ -164,7 +509,7 @@
         </div>
 
         <div class="col-lg-3 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Layanan lainnya</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="https://ragem.serangkota.go.id/">RAGEM</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="https://kominfo.serangkota.go.id/ ">Diskominfo Serang Kota</a></li>
@@ -174,8 +519,7 @@
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <h4>Follow Us</h4>  
           <div class="social-links d-flex">
             <a href="https://x.com/pemkotserang"><i class="bi bi-twitter-x"></i></a>
             <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
