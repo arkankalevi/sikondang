@@ -123,6 +123,18 @@
         <h2>Sistem Informasi Kota Serang Dalam Angka</h2>
       </div><!-- End Section Title -->
 
+      <!-- Search Bar -->
+  <div class="container">
+    <div class="row justify-content-center my-4">
+      <div class="col-md-6">
+        <div class="input-group">
+          <input type="text" class="form-control " placeholder="Search...">
+          <button class="btn btn-primary bi bi-search" type="button"></button>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Search Bar -->
+
       <div class="container">
 
         <div class="row gy-4">
