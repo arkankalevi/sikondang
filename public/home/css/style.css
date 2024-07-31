@@ -605,7 +605,7 @@ section,
     margin: 0 0 20px 0;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.8);
-    font-family: var(--nav-font);
+    font-family: var(--default-font);
 }
 
 /*--------------------------------------------------------------
@@ -668,19 +668,23 @@ section,
 /* Custom styles for search bar */
 #features .input-group {
     box-shadow: 0px 5px 30px 0px rgba(82, 78, 78, 0.1);
-    max-width: 600px; /* Set a max-width to make it centered and not too wide */
+    max-width: 60%; /* Set a max-width to make it centered and not too wide */
     margin: 0 auto; /* Center it horizontally */
 }
 
 #features .input-group .form-control {
-    border: 1px solid #ced4da;
+    border: 2px solid #2f567e;
     border-radius: 0.25rem 0 0 0.25rem;
+    box-sizing: border-box;
+    height: 15%; /* Ensure it takes full height of the parent */
 }
 
 #features .input-group .btn {
     border-radius: 0 0.25rem 0.25rem 0;
     background-color: var(--accent-color);
     color: #fff;
+    box-sizing: border-box;
+    height: 100%; /* Ensure it takes full height of the parent */
 }
 
 /*--------------------------------------------------------------
