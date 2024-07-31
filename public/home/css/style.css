@@ -101,7 +101,7 @@ h6 {
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
-    color: var(--contrast-color);
+    color: var(--surface-color);
     background: var(--accent-color);
     font-size: 14px;
     padding: 8px 25px;
@@ -137,13 +137,14 @@ h6 {
 .index-page .header {
     --background-color: rgba(255, 255, 255, 0);
     --heading-color: #000000;
-    --nav-color: #000000;
+    --nav-color: #363232;
 }
 
 /* Index Page Header on Scroll
   ------------------------------*/
 .index-page.scrolled .header {
     --background-color: rgba(17, 15, 95, 0.9);
+    --nav-color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -203,6 +204,7 @@ h6 {
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     }
 }
+
 /* Mobile Navigation */
 @media (max-width: 1199px) {
     .mobile-nav-toggle {
@@ -340,7 +342,7 @@ h6 {
 }
 
 .hero .btn-get-started {
-    color: var(--contrast-color);
+    color: var(--surface-color);
     background: var(--accent-color);
     font-family: var(--heading-font);
     font-weight: 500;
