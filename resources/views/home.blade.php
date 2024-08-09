@@ -472,42 +472,40 @@
 
 
      <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+<section id="counts" class="counts">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Statistik Pengunjung</h2>
+  </div><!-- End Section Title -->
 
-       <!-- Section Title -->
-       <div class="container section-title" data-aos="fade-up">
-        <h2>Stastistik Pengunjung</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        <div class="row counters">
-
-          <div class="col-lg-4 col-6 text-center d-realtive">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <h3>23</h3>
-            <p>Pengunjung Hari ini</p>
-          </div>
-
-          <div class="col-lg-4 col-6 text-center d-relative">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <h3>541</h3>
-            <p>Pengunjung Bulan ini</p>
-          </div>
-
-          <div class="col-lg-4 col-6 text-center d-relative">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <h3>3090</h3>
-            <p>Pengunjung 6 Bulan Terakhir</p>
-          </div>
-
-          <div class="col-lg-4 col-6 text-center d-relative">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <h3>4.892</h3>
-            <p>Pengunjung Tahun Ini </p>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row counters justify-content-center">
+      <div class="col-lg-3 col-md-6 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+        <h3>23</h3>
+        <p>Pengunjung Hari ini</p>
       </div>
-    </section><!-- End Counts Section -->
+
+      <div class="col-lg-3 col-md-6 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="541" data-purecounter-duration="1" class="purecounter"></span>
+        <h3>541</h3>
+        <p>Pengunjung Bulan ini</p>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="3090" data-purecounter-duration="1" class="purecounter"></span>
+        <h3>3090</h3>
+        <p>Pengunjung 6 Bulan Terakhir</p>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="4892" data-purecounter-duration="1" class="purecounter"></span>
+        <h3>4.892</h3>
+        <p>Pengunjung Tahun Ini</p>
+      </div>
+    </div>
+  </div>
+</section><!-- End Counts Section -->
 
   </main>
 
