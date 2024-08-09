@@ -571,7 +571,7 @@
    <script src="home/vendor/glightbox/js/glightbox.min.js"></script>
    <script src="home/vendor/isotope-layout/isotope.pkgd.min.js"></script>
    <script src="home/vendor/swiper/swiper-bundle.min.js"></script>
-   <script src="home/vendor/php-email-form/validate.js"></script>
+   
  
   <!-- Main JS File -->
   <script src="home/js/main.js"></script>
