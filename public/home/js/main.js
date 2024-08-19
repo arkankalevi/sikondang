@@ -136,3 +136,56 @@
     window.addEventListener("load", navmenuScrollspy);
     document.addEventListener("scroll", navmenuScrollspy);
 })();
+
+/**
+ * Search Function
+ */
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector(".form-control");
+    const featureItems = Array.from(
+        document.querySelectorAll(".features-item")
+    );
+
+    let debounceTimeout;
+    let animationFrameId;
+
+    searchInput.addEventListener("input", function () {
+        clearTimeout(debounceTimeout);
+
+        debounceTimeout = setTimeout(() => {
+            const query = searchInput.value.toLowerCase();
+            let startIndex = 0;
+
+            function processBatch() {
+                if (startIndex < featureItems.length) {
+                    const endIndex = Math.min(
+                        startIndex + 10,
+                        featureItems.length
+                    );
+
+                    for (let i = startIndex; i < endIndex; i++) {
+                        const item = featureItems[i];
+                        const title = item
+                            .querySelector("h3")
+                            .textContent.toLowerCase();
+                        if (title.includes(query)) {
+                            item.style.visibility = "visible";
+                            item.style.position = "relative";
+                        } else {
+                            item.style.visibility = "hidden";
+                            item.style.position = "absolute";
+                        }
+                    }
+
+                    startIndex = endIndex;
+                    animationFrameId = requestAnimationFrame(processBatch);
+                }
+            }
+
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+            processBatch();
+        }, 100); //  delay
+    });
+});

@@ -664,6 +664,10 @@ section,
     max-height: 60px;
     margin-right: 8px;
 }
+.features-item {
+    min-height: 200px; /* Adjust to the height of your card */
+    text-align: center; /* Ensure content is centered */
+}
 
 .features .features-item {
     background-color: var(--surface-color);
