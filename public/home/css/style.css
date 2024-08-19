@@ -665,8 +665,17 @@ section,
     margin-right: 8px;
 }
 .features-item {
-    min-height: 200px; /* Adjust to the height of your card */
-    text-align: center; /* Ensure content is centered */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.features-item[style*="hidden"] {
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.features-item[style*="visible"] {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .features .features-item {

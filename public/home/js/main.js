@@ -148,44 +148,52 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let debounceTimeout;
     let animationFrameId;
+    let batchIndex = 0;
+    const batchSize = 10;
 
     searchInput.addEventListener("input", function () {
         clearTimeout(debounceTimeout);
 
         debounceTimeout = setTimeout(() => {
             const query = searchInput.value.toLowerCase();
-            let startIndex = 0;
+
+            // Reset batch processing
+            batchIndex = 0;
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
 
             function processBatch() {
-                if (startIndex < featureItems.length) {
-                    const endIndex = Math.min(
-                        startIndex + 10,
-                        featureItems.length
-                    );
+                const endIndex = Math.min(
+                    batchIndex + batchSize,
+                    featureItems.length
+                );
 
-                    for (let i = startIndex; i < endIndex; i++) {
-                        const item = featureItems[i];
-                        const title = item
-                            .querySelector("h3")
-                            .textContent.toLowerCase();
-                        if (title.includes(query)) {
-                            item.style.visibility = "visible";
-                            item.style.position = "relative";
-                        } else {
-                            item.style.visibility = "hidden";
-                            item.style.position = "absolute";
-                        }
+                for (let i = batchIndex; i < endIndex; i++) {
+                    const item = featureItems[i];
+                    const title = item
+                        .querySelector("h3")
+                        .textContent.toLowerCase();
+                    if (title.includes(query)) {
+                        item.style.visibility = "visible";
+                        item.style.position = "relative";
+                        item.style.opacity = "1"; // Ensure it's fully visible
+                        item.style.transform = "scale(1)"; // Reset any transformation
+                    } else {
+                        item.style.visibility = "hidden";
+                        item.style.position = "absolute";
+                        item.style.opacity = "0"; // Hide with opacity
+                        item.style.transform = "scale(0.95)"; // Slightly scale down hidden items
                     }
+                }
 
-                    startIndex = endIndex;
+                batchIndex = endIndex;
+                if (batchIndex < featureItems.length) {
                     animationFrameId = requestAnimationFrame(processBatch);
                 }
             }
 
-            if (animationFrameId) {
-                cancelAnimationFrame(animationFrameId);
-            }
             processBatch();
-        }, 100); //  delay
+        }, 150); // Slightly shorter debounce delay
     });
 });
